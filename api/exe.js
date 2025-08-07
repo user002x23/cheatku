@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = (req, res) => {
-  const filePath = path.join(__dirname, '../public/cheat.exe');
+  const filePath = path.join(__dirname, '../public/datacheat.exe');
   const randomName = `${Date.now()}.cbm`;
   
   res.setHeader('Content-Type', 'application/octet-stream');
