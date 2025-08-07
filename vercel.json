@@ -1,7 +1,13 @@
 {
   "functions": {
-    "api/download.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/download",
+      "dest": "/api/download.php"
+    }
+  ]
 }
