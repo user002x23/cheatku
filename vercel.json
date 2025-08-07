@@ -5,7 +5,7 @@
       "dest": "/api/download.js"
     },
     {
-      "src": "/exe",
+      "src": "/dataexe",
       "dest": "/api/exe.js"
     }
   ]
